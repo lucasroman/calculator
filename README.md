@@ -1,1 +1,1 @@
-# calculator
+# string calculator
