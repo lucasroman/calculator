@@ -5,6 +5,7 @@ describe StringCalculator do
 
   describe '.add' do
     context 'given an empty string' do
+      
       it 'returns zero' do
         expect(StringCalculator.add('')).to eql(0)
       end
@@ -31,7 +32,7 @@ describe StringCalculator do
 
       context 'given "17,100"' do
         it 'return 117' do
-          expect(StringCalculator.add('17,100').to eql(117))
+          expect(StringCalculator.add('17,100')).to eql(117)
         end
       end
     end
